@@ -29,5 +29,15 @@
 
    ```bash
    connectionString="Server=(server)\SQLEXPRESS;Database=X_Tech_db;Integrated Security=True;"
+3. Создайте БД и таблицу:
+   ```bash
+   create database X_Tech_db
+   use X_Tech_db
+   go
+   CREATE TABLE WifiNetworks (
+    Id INT PRIMARY KEY IDENTITY,
+    SSID NVARCHAR(100) NOT NULL,
+    SignalStrength INT NOT NULL
+   );
 
 
