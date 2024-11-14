@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj": {}
+    "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj": {}
   },
   "projects": {
-    "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj": {
+    "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
+        "projectUniqueName": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
         "projectName": "X-Tech_TestWork(1)",
-        "projectPath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
+        "projectPath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
         "packagesPath": "C:\\Users\\kek13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\obj\\",
+        "outputPath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kek13\\AppData\\Roaming\\NuGet\\NuGet.Config",

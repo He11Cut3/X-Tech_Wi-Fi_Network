@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/8152.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("db_connect.config")]
 
 

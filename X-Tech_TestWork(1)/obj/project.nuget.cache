@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yJFpyFebmhSmfiPxAaTp8AV/Aq16dXlQIjNi4g6KLE/6TATkm7P6eFTaN0UmJtSF/8FCc7qxN64sZvSALFYDbQ==",
+  "dgSpecHash": "QbHGwOlvG0RLQtMNZDMB3e+qC/F3MnX82Tiv6mGx91q7iww0/C359eHxYhY4OLEIAinG61XC/kMfwr14Ythmjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
+  "projectFilePath": "C:\\Users\\kek13\\OneDrive\\Рабочий стол\\01\\Git\\X-Tech_TestWork\\X-Tech_TestWork\\X-Tech_TestWork(1)\\X-Tech_TestWork(1).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kek13\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kek13\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
