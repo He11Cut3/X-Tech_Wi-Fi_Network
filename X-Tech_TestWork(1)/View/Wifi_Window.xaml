@@ -1,0 +1,61 @@
+﻿<Window x:Class="X_Tech_TestWork_1_.View.Wifi_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        mc:Ignorable="d"
+        Title="Wifi_Window"
+        Height="450"
+        Width="800"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource MaterialDesignWindow}">
+    <materialDesign:Card Background="{DynamicResource MaterialDesignPaper}">
+        <Grid>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Сканировать"
+                        Style="{StaticResource MaterialDesignPaperLightButton}"
+                        Command="{Binding ScanCommand}"
+                        Margin="10,10,0,0"
+                        VerticalAlignment="Top"
+                        Width="161" />
+                <Button Content="Сохранить"
+                        Style="{StaticResource MaterialDesignPaperLightButton}"
+                        Command="{Binding SaveCommand}"
+                        Margin="10,10,0,0"
+                        VerticalAlignment="Top"
+                        Width="115" />
+            </StackPanel>
+
+
+            <Label Content="Лучшая сеть:"
+                   HorizontalAlignment="Left"
+                   Margin="10,50,0,0"
+                   VerticalAlignment="Top" />
+            <TextBox Text="{Binding BestNetwork}"
+                     HorizontalAlignment="Left"
+                     Margin="100,50,0,0"
+                     VerticalAlignment="Top"
+                     Width="200"
+                     IsReadOnly="True" />
+
+            <DataGrid ItemsSource="{Binding WifiDatabase}"
+                      AutoGenerateColumns="False"
+                      HorizontalAlignment="Left"
+                      IsReadOnly="True"
+                      Margin="10,100,10,10"
+                      VerticalAlignment="Top">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="SSID"
+                                        Binding="{Binding SSID}"
+                                        Width="*" />
+                    <DataGridTextColumn Header="Сигнал %"
+                                        Binding="{Binding SignalStrength}"
+                                        Width="*" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </materialDesign:Card>
+
+</Window>
