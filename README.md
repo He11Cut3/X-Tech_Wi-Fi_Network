@@ -1,3 +1,8 @@
+<a href="https://ibb.co/3sXMBVW"><img src="https://i.ibb.co/n02nz4f/2024-11-14-162657.png" alt="2024-11-14-162657" border="0"></a>
+
+![Static Badge](https://img.shields.io/badge/Framework-ASP.NET_8.0-purple?logo=dotnet) ![Static Badge](https://img.shields.io/badge/Language-C%23-purple?logo=csharp) ![Static Badge](https://img.shields.io/badge/DataBase-MSSQL-purple?logo=microsoftsqlserver)
+
+
 # Wi-Fi Network Scanner and Saver
 
 Этот проект представляет собой приложение для сканирования доступных Wi-Fi сетей, отображения их в интерфейсе и сохранения в базе данных. Используется технология WPF и MVVM.
